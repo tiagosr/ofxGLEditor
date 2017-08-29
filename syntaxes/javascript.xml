@@ -1,0 +1,68 @@
+<!-- javascript syntax for ofxGLEditor (with some additions for duktape) -->
+<syntax>
+
+    <lang>Javascript</lang>
+	<files>
+		<ext>js</ext>
+	</files>
+    
+    <singlecomment>//</singlecomment>
+	<multicomment>
+		<begin>/*</begin>
+		<end>*/</end>
+	</multicomment>
+
+	<stringliteral>
+		<begin>`</begin>
+		<end>`</end>
+	</stringliteral>
+
+    <!-- javascript supports hex literals i.e. 0x1a2b3c -->
+    <hexliteral>true</hexliteral>
+    
+    <operator>=+-*/^!.|</operator>
+
+    <words>
+		
+        <!-- lang keywords -->
+        <keyword>require</keyword>
+        <keyword>module</keyword>
+        <keyword>function</keyword>
+        <keyword>var</keyword>
+		<keyword>const</keyword>
+        <keyword>in</keyword>
+		<keyword>with</keyword>
+        <keyword>switch</keyword>
+        <keyword>case</keyword>
+        <keyword>default</keyword>
+        <keyword>break</keyword>
+		<keyword>continue</keyword>
+		<keyword>true</keyword>
+        <keyword>false</keyword>
+        <keyword>return</keyword>
+        <keyword>do</keyword>
+        <keyword>for</keyword>
+        <keyword>undefined</keyword>
+        <keyword>null</keyword>
+        <keyword>then</keyword>
+        <keyword>else</keyword>
+        <keyword>if</keyword>
+        <keyword>while</keyword>
+        <keyword>new</keyword>
+        <keyword>delete</keyword>
+        <keyword>throw</keyword>
+        <keyword>catch</keyword>
+        <keyword>try</keyword>
+        <keyword>finally</keyword>
+        <keyword>this</keyword>
+        <keyword>void</keyword>
+        <keyword>instanceof</keyword>
+        <keyword>typeof</keyword>
+        <keyword>debugger</keyword>
+
+        <!-- basic functions -->
+        <function>console.log</function>
+        <function>eval</function>
+
+	</words>
+</syntax>
